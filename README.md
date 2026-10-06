@@ -81,6 +81,16 @@ See the [API reference](https://github.com/l3lackMegas/MEWITFSIMTFULTMIS/blob/ma
 for option limits, runtime controls, and lifecycle behavior, or try the
 [runnable example](https://github.com/l3lackMegas/MEWITFSIMTFULTMIS/blob/main/examples/server.ts).
 
+## Benchmark
+
+Slowest to fastest. Finally, a chart where we come first.
+
+![Throughput, slowest to fastest: Elysia with MEWITFSIMTFULTMIS and Kotchasan use fictional values; express, fastify, and Elysia use TechEmpower Round 23 plaintext results.](https://raw.githubusercontent.com/l3lackMegas/MEWITFSIMTFULTMIS/main/assets/benchmark.png)
+
+*Sources: #3–#5 use [TechEmpower Round 23, Plaintext](https://www.techempower.com/benchmarks/#section=data-r23&test=plaintext)
+best results on physical hardware. #1–#2 are credited to imagination, not measurement.
+This is a joke leaderboard, not a controlled five-framework comparison.*
+
 ## Contributing
 
 Bug reports and pull requests are welcome. See the

@@ -1,0 +1,25 @@
+{
+  "description": "Parody leaderboard mixing three published results with two explicitly fictional entries.",
+  "scale": "linear",
+  "unit": "requests/second",
+  "order": "slowest to fastest",
+  "source": {
+    "name": "TechEmpower Framework Benchmarks",
+    "round": 23,
+    "date": "2025-02-24",
+    "test": "plaintext",
+    "hardware": "physical",
+    "resultsUrl": "https://www.techempower.com/benchmarks/#section=data-r23&test=plaintext",
+    "rawDataUrl": "https://www.techempower.com/benchmarks/results/round23/ph.json",
+    "aggregation": "Maximum across the four pipeline concurrency levels of floor((totalRequests - 5xx - read - write - connect) / 15), matching TechEmpower's results renderer.",
+    "pipelineConcurrencyLevels": [256, 1024, 4096, 16384],
+    "note": "Named base implementations are used, not alternative compiled or database variants. This is not a controlled comparison of all five rows."
+  },
+  "rows": [
+    { "rank": 1, "name": "Elysia with MEWITFSIMTFULTMIS", "requestsPerSecond": 1, "source": "imagination", "measured": false },
+    { "rank": 2, "name": "Kotchasan PHP Framework", "requestsPerSecond": 2300, "source": "imagination", "measured": false },
+    { "rank": 3, "name": "express", "requestsPerSecond": 279922, "source": "TechEmpower", "testId": "express", "runtime": "nodejs", "measured": true },
+    { "rank": 4, "name": "fastify", "requestsPerSecond": 1175038, "source": "TechEmpower", "testId": "fastify", "runtime": "nodejs", "measured": true },
+    { "rank": 5, "name": "Elysia", "requestsPerSecond": 26060081, "source": "TechEmpower", "testId": "elysia", "runtime": "bun", "measured": true }
+  ]
+}
