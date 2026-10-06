@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+work/
+*.tgz
+.env
+.env.*
+!.env.example
